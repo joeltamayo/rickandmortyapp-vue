@@ -1,0 +1,41 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar,
+.footer {
+    color: azure;
+    background-color: rgb(43, 49, 85) !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ee931b, #f1af57);
+    background-image: url('media/wallpapper2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ui {
+    color: azure;
+    background-color: rgb(8, 180, 204) !important;
+    border: none;
+}
+
+.ui:hover {
+    color: azure;
+    background-color: rgb(14, 161, 180) !important;
+    border: none;
+}
+
+.ui-text {
+    color: rgb(14, 161, 180);
+}
+
+h2 {
+    color: azure;
+}
